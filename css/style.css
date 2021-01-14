@@ -1,0 +1,186 @@
+/* ------------Header part start------------ */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-full{
+    background-color: #fff9f4;
+    height: 650px;
+}
+
+.logo a img{
+    height: 40px;
+}
+
+.menu-item .navbar-nav .nav-link{
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+.banner-text h1{
+    color: #363958;
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-color{
+    color: #fa804c;
+}
+
+.banner-text p{
+    color: #666;
+    font-size: 16px;
+}
+
+.banner-text img{
+    height: 30px;
+}
+
+.btn{
+    font-size: 14px;
+}
+
+/* -------- Header part end---------- */
+
+/* ------------Casual shows part start---------- */
+.section-title h3{
+    color: #363958;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.shows-card {
+    border: 0; 
+    border-radius: 15px;
+} 
+
+.card-img{
+    background-color: #f1f1f1;
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+}
+
+.card-img img{
+    width: 80%;
+}
+
+.shows-card-footer{
+    background-color: white;
+    border: 0;
+}
+
+.shows-card-footer img{
+    height: 20px;
+}
+
+.cart-text h5{
+    color: #363958;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.shows-card-footer h2{
+    color: #fa804c;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+/* ------------Casual shows part end---------- */
+
+/* ------------- Service part start------------ */
+
+.service-main{
+    border-radius: 15px;
+}
+
+.service-icon img{
+    width: 50%;
+}
+
+.service-img img{
+    width: 100%;
+}
+
+/* ------------- Service part end------------ */
+
+/* ------------- Product part start------------ */
+
+.products_item{
+    border: 1px solid #999;
+}
+
+.products_item_text h3 a{
+    color: #363958;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.products_btn img{
+    height: 25px;
+}
+/* ------------- Product part end------------ */
+
+
+
+
+
+
+/* ------------------------------- Media Query ---------------------------------------- */
+
+@media (max-width: 668px){
+/* --Header part start--- */
+    .logo a img{
+        height: 35px;
+    } 
+
+    button {
+        margin-left: 60px;
+    }
+
+    .banner-full{
+        background-color: #fff9f4;
+        height: 850px;
+    }
+
+    .banner-text h1{
+        font-size: 48px;
+    }
+/* --Header part end-- */
+
+/* -- Casual shows part start-- */
+
+.section-title h3{
+   text-align: center;
+}
+/* -- Casual shows part end-- */
+
+.service-main {
+    width: 100%;
+}
+.service-icon img{
+    width: 100%;
+}
+
+}
+
+@media  (min-width: 688px) and (max-width: 992px){
+
+    .banner-text{
+        padding: 100px 0;
+    }
+
+    
+.service-icon img{
+    width: 100%;
+}
+
+
+}
